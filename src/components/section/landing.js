@@ -19,13 +19,13 @@ export function Landing() {
                             IN HELPING YOU <b><i>ACHIVE</i></b> IT . . .
                         </h2>
                         <h2 style={{fontSize: '8px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'6px'}}>
-                            FIND OUT HOW
+                        FIND OUT HOW
                         </h2>
                     </div>
-        <div className='row'>
-          <p className="bottom-space-sm" />
+        <div className='row' style={{flexFlow:'column'}}>
+          <p className="bottom-space" />
           <div className='float-div'>
-            <p style={{fontSize: '20px', margin: '10px 0px 0px 0px', opacity:1}}>↡</p>
+            <p style={{fontSize: '15px', margin: '10px 0px 0px 0px', opacity:1}}>💎</p>
           </div>
         </div>
                     

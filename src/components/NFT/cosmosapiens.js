@@ -158,9 +158,9 @@ export function Cosmosapiens() {
             <div className="token__container">
                     <div className='token__container-section' >
                       <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
-                      OK, get it, WTF are those anyway? They are basically free just pay the fee.
+                      OK, get it, WTF are those anyway? They are basically free, just pay gas.
                       Your passport to the sickest clubhouse on the blockchained metaverse. 
-                      All Cosmosapiens NFT holders will receave an early-bird status with early investor privilages and giveaways,
+                      All Cosmosapiens NFT holders will receive an early-bird status with early investor privileges  and giveaways,
                       access to our metaverse virtual COMETA PODs, in-house designed COMETA NFT singed
                       on Ethereum Blockchain and hosted on the distributed database. - own a VR ETH-estate on the Metaverse.
                       <br />
