@@ -158,7 +158,7 @@ export function Cosmosapiens() {
             <div className="token__container">
                     <div className='token__container-section' >
                       <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
-                      Get it, WTF are those anyway? They are basically free just pay the fee.
+                      OK, get it, WTF are those anyway? They are basically free just pay the fee.
                       Your passport to the sickest clubhouse on the blockchained metaverse. 
                       All Cosmosapiens NFT holders will receave an early-bird status with early investor privilages and giveaways,
                       access to our metaverse virtual COMETA PODs, in-house designed COMETA NFT singed
@@ -170,7 +170,7 @@ export function Cosmosapiens() {
                       including expression, headwear, clothing, and more. 
                       All cosmosapiens are dope, but some are rarer than others. 
                       The cosmosapiens are stored as ERC-721 tokens on the blockchain and hosted on IPFS. 
-                      (See Record and Proof.) Purchasing a cosmosapien costs 0.08 ETH.
+                      (See Record and Proof.) Purchasing 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL}.
                       To access members-only areas such as THE COMETA, 
                       Cosmosapiens will need to be signed into their Metamask Wallet.
                       </h2>
@@ -327,9 +327,11 @@ export function Cosmosapiens() {
               <h3 style={{fontWeight:'300', fontSize: '17px', textAlign: 'center', letterSpacing:'5px'}}>GIVE ME FREE MONEY</h3>
                 <h3 style={{alignItems:'center', fontSize: '14px', marginTop:'-5px'}}>
                   All Cosmosapien Holders will automatically enter giveaways for:
-                  <br />⋘ K9 Cosmic Doge Fren Companion and Protector NFTs ⋙
+                  <br /><b>⋘ K9 Cosmosapien Doge Fren ⋙</b>
+                  <br />Companion and Protector NFTs
                   <br /> ＋
-                  <br /> Ð Cometa Doge Fren - Doge rewards Token  Ð
+                  <br /><b> Ð Cometa Doge Fren Ð</b>
+                  <br /> Doge rewards Token  
                   <br /> Airdops Coming Q1 2022.
                 </h3>
                 <h2 style={{marginBottom:'-15px'}}>🛡</h2>
@@ -341,12 +343,11 @@ export function Cosmosapiens() {
               <div className="bottom-space-sm" />
               <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '25px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
-                      JOIN OUR COMMUNITY 
-                      <br />AND PREPARE FOR LAUNCH
+                      BE PART OFCosmosapien OUR COMMUNITY 
+                      <br />PREPARE FOR LAUNCH
                         </h2>
                         <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
                         ✰ FOLLOW OUR SOCIAL CHANNELS ✰
-                        <br /> NOW
                         </h2>
                     </div>
             </div>

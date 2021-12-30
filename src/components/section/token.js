@@ -132,15 +132,15 @@ export function Token() {
                       <div className='info__container-cardInfo'>
                       <h1>4%</h1>
                         <h2 style={{marginTop:'-25px'}}>POOL</h2>
-                        <p style={{textAlign:'center'}}>4% of every transaction is allocated to maintaining a stable liquidity pool
-                          keeping your investments sustainable.</p>
+                        <p style={{textAlign:'center'}}>3% of every transaction is allocated to maintaining a stable liquidity pool
+                          keeping your investments sustainable, additional 1% is saved into the COMETA Reserve protocol</p>
                       </div>
                     </div>
                     <div className='info__container-card'>
                       <div className='info__container-cardInfo'>
                         <h1>5%</h1>
                         <h2 style={{marginTop:'-25px'}}>MARKETING</h2>
-                        <p style={{textAlign:'center'}} >4% of every transaction is split allocated to Marketing and Development.  
+                        <p style={{textAlign:'center'}} >5% of every transaction is split allocated to Marketing, Development and design Team.  
                           This allows us to fuel our most ambitious projects in service of further rewarding our community.</p>
                       </div>
                     </div>
@@ -159,6 +159,10 @@ export function Token() {
                   <div className='bottom-space-md' />
                 <div className="token__container" style={{flexFlow: 'column', width: '80vw', marginTop:'-10px'}}>
                 <div className='row' style={{flexFlow:'column'}}>
+                    <h3 style={{fontSize: '15px', textAlign: 'center'}}>$COMETA tax will decrementally drop and settle at:
+                    <br /> 5% BUY / 10% SELL
+                    <br /><b>2022 Q2</b></h3>
+
                     <h3 style={{fontSize: '15px', textAlign: 'center'}}>Lower buy tax attracts buy pressure & Higher sell tax encourages hodl.
                     <br/>Less buy tax ≫ Lesser Slippage ≫ Higher Volume ≫ More Holder ≫ Higher Price
                     </h3>

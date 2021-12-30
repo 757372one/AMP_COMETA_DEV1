@@ -10,19 +10,23 @@ export function Landing() {
       <p className="bottom-space" style={{marginBottom:'200px'}} />
       <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '30px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'10px'}}>
-                            WHEN YOU <b>WANT</b> SOMETHING
+                            WHEN YOU <i>REALLY </i><b>WANT</b> SOMETHING
                         </h2>
                         <h2 style={{fontSize: '20px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'8px'}}>
-                            ALL THE <b>UNIVERSE</b> CONSPIRES
+                            ALL THE <b>UNIVERSE</b> COLLABORATES
                         </h2>
                         <h2 style={{fontSize: '13px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'6px'}}>
-                            IN HELPING YOU <b>ACHIVE</b> IT . . .
+                            IN HELPING YOU <b><i>ACHIVE</i></b> IT . . .
+                        </h2>
+                        <h2 style={{fontSize: '8px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'6px'}}>
+                            FIND OUT HOW
                         </h2>
                     </div>
         <div className='row'>
-        <p className="bottom-space-sm" />
-        <p style={{fontSize: '20px', margin: '10px 0px 0px 0px', opacity:1}}>↡</p>
-
+          <p className="bottom-space-sm" />
+          <div className='float-div'>
+            <p style={{fontSize: '20px', margin: '10px 0px 0px 0px', opacity:1}}>↡</p>
+          </div>
         </div>
                     
         <p className="bottom-space" style={{marginBottom:'400px'}} />

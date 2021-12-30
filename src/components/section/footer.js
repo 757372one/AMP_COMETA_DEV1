@@ -25,7 +25,6 @@ export function Footer() {
             <li><a href="https://www.twitter.com/cometaclub">Twitter</a></li>
                 <li><a href="https://discord.gg/GRQrmvZY8y">Discord</a></li>
                 <li><a href="https://t.me/cometaclub">Telegram</a></li>
-                <li><a href="https://github.com/cometaclub">Source Code</a></li>
                 <li>
                     <p style={{fontSize: '20px', margin: '-5px 0px 0px 0px', opacity:1}}>☄️</p>
                 </li>
