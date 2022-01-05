@@ -2,6 +2,9 @@ import React from 'react';
 import PieChart from './sub/dounuts';
 import { TokenBanners } from './sub/token_banners';
 
+const truncate = (input, len) =>
+  input.length > len ? `${input.substring(0, len)}...` : input;
+
 export const data = {
   labels: ['PancakeSwap', 'Dev', 'Marketing', 'Advisors'],
   datasets: [
@@ -45,10 +48,10 @@ export function Token() {
                     <a href={'https://bscscan.com/token/0x486979e013e43878fce1b888a6b6668661836db8'}>
                       <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0x486979e013e43878fce1b888a6b6668661836db8</h3>
                     </a>
-                    <h3 style={{fontSize: '10px', padding: '5px 0px 5px 0px', opacity:1}}>ERC20 standard</h3>
+                    <h3 style={{fontSize: '12px', padding: '5px 0px 5px 0px', opacity:1}}>BEP20 standard</h3>
                     </div>
                   </div>
-                  <p className='bottom-space-sm' />
+                  <p className='bottom-space-md' />
 
                   <h3 className="neon" style={{fontSize: '25px', fontFamily: 'neon', marginBottom: '-10px'}}>
                           COMETA
@@ -176,7 +179,7 @@ export function Token() {
                   <h3 className="neon" style={{fontSize: '25px', fontFamily: 'neon', margin: '-20px 0px -15px 0px'}}>
                           COMETA
                   </h3>
-                      <h3 style={{fontSize: '17px', margin: '0px 0px -35px 0px', opacity:1}}>TOTAL SUPPLY</h3>
+                      <h3 style={{fontSize: '17px', margin: '10px 0px -35px 0px', opacity:1}}>TOTAL SUPPLY</h3>
                   </div>
                   
                   <div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
@@ -192,9 +195,10 @@ export function Token() {
                   <PieChart
                           data={[{ key: "Burned: 60%", value: 60 }, 
                           { key: "PancakeSwap: 25%", value: 25 },
-                          { key: "Listing Reserve: 8%", value: 8 },
-                          { key: "Development/Marketing Fund: 3%", value: 3 },
-                          { key: "Airdrops/Game-to-Earn: 3%", value: 3 },
+                          { key: "Listing Reserve: 5%", value: 5 },
+                          { key: "Ecosystem/Marketing Fund: 4%", value: 4 },
+                          { key: "Development Fund: 3%", value: 3 },
+                          { key: "Airdrops/Game-to-Earn: 2%", value: 2 },
                           { key: "Charity Wallet: 1%", value: 1 }]}
                           label="✩ TOKEN ALLOCATION ✩"
                         />
@@ -206,12 +210,16 @@ export function Token() {
                   </div>
                   <div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
                     <h2 style={{display: 'flex',fontSize: '23px', fontWeight: '400', textAlign: 'center'}}>
-                    20M max hodl&emsp;
+                    20M max wallet&emsp;
                     </h2>
                     <hr width="3" size="50"/>
                     <h2 style={{fontSize: '20px',fontWeight: '400',textAlign: 'center'}}>
-                            &emsp;500K max sell
+                            &emsp;1M max sell
                     </h2>
+                  </div>
+                  <div className='row' style={{flexFlow: 'column', alignItems:'center'}}>
+                      <h3 style={{fontSize: '17px', margin: '0px 0px 0px 0px', opacity:1}}>HODL MIN* 200K $COMETA</h3>
+                      <h3 style={{fontSize: '15px', margin: '0px 0px 0px 0px', opacity:1}}>*to receive $BNB rewards</h3>
                   </div>
                   <div className='bottom-space-sm' />
                 <div className='row'>
@@ -220,7 +228,7 @@ export function Token() {
                       <li>
                         <a href="#">
                           <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                          COMETA
+                          $COMETA
                           <br /> Tokenomic
                           <br /> Tax
                           </h3>
@@ -240,6 +248,10 @@ export function Token() {
                                   3%
                                 <br />$BNB 
                                 <br />Redistribution
+                                <br />
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0xeeb32426a6ed5b50e8ae8291377ab52d4423f406">
+                                    {truncate('0xEeb32426a6Ed5B50e8aE8291377aB52d4423F406', 5)}
+                                    </a>
                                 </h3>
                               </a>  
                               </li>
@@ -247,8 +259,12 @@ export function Token() {
                               <a href="#">
                                 <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
                                   2% 
-                                  <br />Community 
+                                  <br />Ecosystem 
                                   <br />Rewards
+                                  <br />
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0x21ca6FBC424b450e4bf70A6fa0ED15d93FA5b404">
+                                    {truncate('0x21ca6FBC424b450e4bf70A6fa0ED15d93FA5b404', 5)}
+                                    </a>
                                 </h3>
                               </a>  
                               </li>
@@ -256,6 +272,7 @@ export function Token() {
                           </li>
                           <li>
                             <a href="#">
+                            <h3 style={{fontSize: '7px',fontWeight: '100',textAlign: 'center', marginBottom:'-10px'}}>🔒</h3>
                               <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
                               4% 
                               <br />Pool
@@ -268,6 +285,10 @@ export function Token() {
                                   3% 
                                   <br />Pancakeswap
                                   <br /> Liquidity
+                                  <br />
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0xb7dc95cf52d9a9d6edbe3fe7a7dfb52ae492887e">
+                                    {truncate('0xb7dc95cf52d9a9d6edbe3fe7a7dfb52ae492887e', 5)}
+                                    </a>
                                   </h3>
                                 </a>
                               </li>
@@ -277,6 +298,10 @@ export function Token() {
                                   1% 
                                   <br />Buyback
                                   <br />Reserve
+                                  <br />
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0x2C736ebbb3Ff7FCD979c7D949A8c873501532Be5">
+                                    {truncate('0x2C736ebbb3Ff7FCD979c7D949A8c873501532Be5', 5)}
+                                    </a>
                                   </h3>
                                 </a>
                               </li>
@@ -294,8 +319,12 @@ export function Token() {
                                 <a href="#">
                                   <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
                                   2% 
-                                  <br />Promotions &
                                   <br />Marketing
+                                  <br />Fund
+                                  <br />
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0xB7Dc95cF52d9A9D6EdBe3fe7A7Dfb52ae492887E">
+                                    {truncate('0xB7Dc95cF52d9A9D6EdBe3fe7A7Dfb52ae492887E', 5)}
+                                    </a>
                                   </h3>
                                 </a>
                               </li>
@@ -305,6 +334,10 @@ export function Token() {
                                   3% 
                                   <br />Development
                                   <br />Fund
+                                  <br />
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0x458D6186eA832bd972b929a80c26699CE9A20e62">
+                                    {truncate('0x458D6186eA832bd972b929a80c26699CE9A20e62', 5)}
+                                    </a>
                                   </h3>
                                 </a>
                               </li>
