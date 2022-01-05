@@ -88,7 +88,7 @@ export default function PieChart({ data, label }) {
           >
             {labels => {
               return (
-                <div style={{ display: "flex", flexDirection: "row", fontFamily: 'monospace' }}>
+                <div style={{ display: "flex", flexFlow: "wrap", fontFamily: 'monospace', marginTop:'-25px' }}>
                   {labels.map((label, i) => {
                     return (
                       <LegendItem
@@ -102,10 +102,10 @@ export default function PieChart({ data, label }) {
                               backgroundColor: label.value,
                               color: "white",
                               lineHeight: "16px",
-                              fontSize: "12px",
+                              fontSize: "10px",
                               borderRadius: "5px",
                               padding: "0 4px",
-                              margin: "2px",
+                              margin: "1px",
                               fontFamily: 'monospace'
                             }}
                           >

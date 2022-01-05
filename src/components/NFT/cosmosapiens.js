@@ -158,7 +158,11 @@ export function Cosmosapiens() {
             <div className="token__container">
                     <div className='token__container-section' >
                       <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
+<<<<<<< HEAD
                       OK, get it, WTF are those anyway? They are basically free, just pay gas.
+=======
+                      Get it, WTF are those anyway?
+>>>>>>> master
                       Your passport to the sickest clubhouse on the blockchained metaverse. 
                       All Cosmosapiens NFT holders will receive an early-bird status with early investor privileges  and giveaways,
                       access to our metaverse virtual COMETA PODs, in-house designed COMETA NFT singed
@@ -170,7 +174,7 @@ export function Cosmosapiens() {
                       including expression, headwear, clothing, and more. 
                       All cosmosapiens are dope, but some are rarer than others. 
                       The cosmosapiens are stored as ERC-721 tokens on the blockchain and hosted on IPFS. 
-                      (See Record and Proof.) Purchasing 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL}.
+                      (See Record and Proof.) Purchasing a cosmosapien costs 0.08 ETH.
                       To access members-only areas such as THE COMETA, 
                       Cosmosapiens will need to be signed into their Metamask Wallet.
                       </h2>
@@ -199,12 +203,13 @@ export function Cosmosapiens() {
                   </div>
               <div className='row'>
                 
-                <a href={'/'}>
+                <a href={'https://etherscan.io/token/0xDD9Be29403fd0Ef9cE4fFA1a1C824d430d25B323'}>
+                  <h3 style={{fontSize: '15px', margin: '0px 0px 0px 0px', opacity:1}}>0xDD9Be29403fd0Ef9cE4fFA1a1C824d430d25B323</h3>
                 </a>
               </div>
               <div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
-                    <h2 style={{display: 'flex',fontSize: '20px', fontWeight: '900', textAlign: 'center'}}>
-                    {data.totalSupply}&emsp;
+                    <h2 style={{display: 'flex',fontSize: '30px', fontWeight: '900', textAlign: 'center'}}>
+                    <i>{data.totalSupply}&emsp;</i>
                     </h2>
                     <hr width="3" size="50"/>
                     <h2 style={{fontSize: '35px',fontWeight: '100',textAlign: 'center'}}>
@@ -237,14 +242,23 @@ export function Cosmosapiens() {
                   <div className='token__wrapper'>
                    <h3> 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL} </h3>
                    <h3 style={{margin:'-10px'}}>excluding gas fees.</h3>
+                   <h3 style={{fontSize: '10px'}}><i>*price doubles with each 1k sold</i></h3>
                   </div>
                   <p className="bottom-space-xsm" />
                   {blockchain.account === "" ||
                   blockchain.smartContract === null ? (
                     <div className='token__wrapper'>
                       <h3>
-                        Launching on the {CONFIG.NETWORK.NAME} network
+                        Connect to the {CONFIG.NETWORK.NAME} network
                       </h3>
+                      <div className='btn' onClick={(e) => {
+                          e.preventDefault();
+                          dispatch(connect());
+                          getData();
+                        }}>
+                        CONNECT
+                        </div>
+                        
                       {blockchain.errorMsg !== "" ? (
                         <>
                           <p className="bottom-space-xsm" />
@@ -254,7 +268,7 @@ export function Cosmosapiens() {
                               color: "var(--accent-text)",
                             }}
                           >
-                            <h3>{blockchain.errorMsg}...Collection is not yet Live</h3>
+                            <h3>{blockchain.errorMsg}</h3>
                           </div>
                         </>
                       ) : null}
@@ -314,18 +328,24 @@ export function Cosmosapiens() {
               )}
               <div className='token__wrapper'>
               <p className="bottom-space-xsm" />
+                <h3 style={{fontSize: '12px'}}>
+                  Verify that you are connected to the right network (
+                  {CONFIG.NETWORK.NAME} Mainnet) and the correct address.
+                </h3>
                 <p style={{alignItems:'center'}}>
                   <img src='images/web/blue_check.png'  width="15px" style={{marginBottom:'-3px'}} alt=''  />
-                  &emsp;Coming Soon to:
+                  &emsp;Check us out:
                 </p>
                 <div className="img-zoom">
-                <img src='images/web/opensea.png'  width="250px" style={{margin:'0px'}} alt=''  />
+                <a href={'https://opensea.io/collection/cosmosapiens'}>
+                  <img src='images/web/opensea.png'  width="250px" style={{margin:'0px'}} alt=''  />
+                </a>
                 </div>
               </div>
               <div className='token__wrapper'>
               <p className="bottom-space-sm" />
               <h3 style={{fontWeight:'300', fontSize: '17px', textAlign: 'center', letterSpacing:'5px'}}>GIVE ME FREE MONEY</h3>
-                <h3 style={{alignItems:'center', fontSize: '14px', marginTop:'-5px'}}>
+              <h3 style={{alignItems:'center', fontSize: '14px', marginTop:'-5px'}}>
                   All Cosmosapien Holders will automatically enter giveaways for:
                   <br /><b>⋘ K9 Cosmosapien Doge Fren ⋙</b>
                   <br />Companion and Protector NFTs
@@ -343,11 +363,12 @@ export function Cosmosapiens() {
               <div className="bottom-space-sm" />
               <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '25px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
-                      BE PART OFCosmosapien OUR COMMUNITY 
-                      <br />PREPARE FOR LAUNCH
+                      JOIN OUR COMMUNITY 
+                      <br />AND PREPARE FOR LAUNCH
                         </h2>
                         <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
                         ✰ FOLLOW OUR SOCIAL CHANNELS ✰
+                        <br /> NOW
                         </h2>
                     </div>
             </div>
