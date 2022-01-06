@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x0000",
-  "SCAN_LINK": "https://etherscan.io//",
+  "CONTRACT_ADDRESS": "0xDD9Be29403fd0Ef9cE4fFA1a1C824d430d25B323",
+  "SCAN_LINK": "https://etherscan.io/token/0xDD9Be29403fd0Ef9cE4fFA1a1C824d430d25B323",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
@@ -9,10 +9,10 @@
   "NFT_NAME": "Cosmosapiens",
   "SYMBOL": "COSMOSAPIENS",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 1000000000000000,
-  "DISPLAY_COST": 0.001,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE_LINK": "https://opensea.io/collection/cosmosapiens",
+  "SHOW_BACKGROUND": false
 }
