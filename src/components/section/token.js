@@ -45,8 +45,8 @@ export function Token() {
                     <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
                       
                     <img src='images/web/bsc1.png'  width="125px" alt=''  />
-                    <a href={'https://bscscan.com/token/0x486979e013e43878fce1b888a6b6668661836db8'}>
-                      <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0x486979e013e43878fce1b888a6b6668661836db8</h3>
+                    <a href={'https://bscscan.com/token/0xc79ab5a19dca7f95d78f21084af0151343eb5cf7'}>
+                      <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0xc79ab5a19dca7f95d78f21084af0151343eb5cf7</h3>
                     </a>
                     <h3 style={{fontSize: '12px', padding: '5px 0px 5px 0px', opacity:1}}>BEP20 standard</h3>
                     </div>
