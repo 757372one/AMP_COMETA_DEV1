@@ -18,6 +18,7 @@ export function Header() {
           <div className='row'>
             <ul>
                 <li><a href="https://www.twitter.com/cometaclub">Twitter</a></li>
+                <li><a href="https://opensea.io/collection/cosmosapiens">Opensea</a></li>
                 <li><a href="https://discord.gg/GRQrmvZY8y">Discord</a></li>
                 <li><a href="https://t.me/cometaclub">Telegram</a></li>
                 <li>
