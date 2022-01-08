@@ -402,11 +402,9 @@ export function Token() {
                   <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '25px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
                       JOIN OUR COMMUNITY 
-                      <br />AND PREPARE FOR LAUNCH
                         </h2>
                         <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
                         ✰ FOLLOW OUR SOCIAL CHANNELS ✰
-                        <br /> NOW
                         </h2>
                     </div>
 
