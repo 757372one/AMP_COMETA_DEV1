@@ -239,7 +239,7 @@ export function Cosmosapiens() {
                   <div className='token__wrapper'>
                    <h3> 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL} </h3>
                    <h3 style={{margin:'-10px'}}>excluding gas fees.</h3>
-                   <h3 style={{fontSize: '10px'}}><i>*price doubles with each 100 sold</i></h3>
+                   <h3 style={{fontSize: '10px'}}><i>*price increases with each 100 sold</i></h3>
                   </div>
                   <p className="bottom-space-xsm" />
                   {blockchain.account === "" ||
