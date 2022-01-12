@@ -38,7 +38,7 @@ export function Features() {
                             <p />
                         </div>
                         <p style={{textAlign:'center'}} >
-                            Not leaving others behind is the fundation of our civilization. 
+                            Not leaving others behind is the foundation of our civilization. 
                             Helping community-picked charities. Open-source funding. 
                         </p>
                     </div>

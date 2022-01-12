@@ -198,7 +198,7 @@ export function Roadmap() {
           <p style={{textAlign:'start', paddingRight:'25px'}}>
             Comeptitions, eliminations & recruitment.
             Awarded best art designs & signed contracts with abolutley THE BEST artists and architects.
-            Cosmosapiens NFT Base layer design and features. Fisrt art engine run!
+            Cosmosapiens NFT Base layer design and features. First art engine run!
             Onboarding an Architect to our team to develop first virtual PADs/Offices for our international team to colab in.
           </p>
           </div>
