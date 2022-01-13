@@ -45,7 +45,7 @@ export function Roadmap() {
                 <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
-                      <img src='images/example.gif' alt='' width="125px" className='home__hero-img' />
+                      <img src='images/web/37.png' alt='' width="125px" className='home__hero-img' />
                       <h3>Joe Chapman</h3>
                       <p style={{textAlign: 'center'}}>Marketing <br className='mobile-break' />Lead</p>
                       <div className='icon-row'>
@@ -71,7 +71,7 @@ export function Roadmap() {
                   <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
-                        <img src='images/example.gif' alt='' width="125px" className='home__hero-img' />
+                        <img src='images/web/newman.png' alt='' width="125px" className='home__hero-img' />
                         <h3>Victor Newman</h3>
                         <p style={{textAlign: 'center'}}>Development<br className='mobile-break' /> Lead</p>
                         <div className='icon-row'>
@@ -97,7 +97,7 @@ export function Roadmap() {
                   <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
-                      <img src='images/example.gif' alt='' width="125px" className='home__hero-img' />
+                      <img src='images/web/8.png' alt='' width="125px" className='home__hero-img' />
                       <h3>Sr Ste</h3>
                       <p style={{textAlign: 'center'}}>Crypto Evangelist</p>
                       <div className='icon-row'>
@@ -125,7 +125,7 @@ export function Roadmap() {
                 <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
-                      <img src='images/example.gif' alt='' width="125px" className='home__hero-img' />
+                      <img src='images/web/33.png' alt='' width="125px" className='home__hero-img' />
                       <h3>Junior Satoshi</h3>
                       <p style={{textAlign: 'center'}}>Moderator</p>
                       <div className='icon-row'>
@@ -151,8 +151,8 @@ export function Roadmap() {
                   <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
-                        <img src='images/example.gif' alt='' width="125px" className='home__hero-img' />
-                        <h3>Monica Day</h3>
+                        <img src='images/web/20.png' alt='' width="125px" className='home__hero-img' />
+                        <h3>Monica D</h3>
                         <p style={{textAlign: 'center'}}>Designer</p>
                         <div className='icon-row'>
                           <div className='col'>
@@ -167,8 +167,8 @@ export function Roadmap() {
                   <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
                       <div className="team__container-features">
-                      <img src='images/example.gif' alt='' width="125px" className='home__hero-img' />
-                      <h3>Aggie Vavrent</h3>
+                      <img src='images/web/23.png' alt='' width="125px" className='home__hero-img' />
+                      <h3>Aggie V</h3>
                       <p style={{textAlign: 'center'}}>Architect</p>
                       <div className='icon-row'>
                       <div className='col'>
