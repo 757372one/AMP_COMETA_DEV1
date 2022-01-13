@@ -249,7 +249,7 @@ export function Token() {
                                 <br />$BNB 
                                 <br />Redistribution
                                 <br />
-                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0xeeb32426a6ed5b50e8ae8291377ab52d4423f406">
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/token/0xeeb32426a6ed5b50e8ae8291377ab52d4423f406">
                                     {truncate('0xEeb32426a6Ed5B50e8aE8291377aB52d4423F406', 5)}
                                     </a>
                                 </h3>
@@ -282,11 +282,11 @@ export function Token() {
                               <li>
                                 <a href="#">
                                   <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  3% 
+                                  2% 
                                   <br />Pancakeswap
                                   <br /> Liquidity
                                   <br />
-                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0xb7dc95cf52d9a9d6edbe3fe7a7dfb52ae492887e">
+                                    <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/token/0xF3dd24B7CD760BD2108434EF38Eb47E6e6E4d681">
                                     {truncate('0xb7dc95cf52d9a9d6edbe3fe7a7dfb52ae492887e', 5)}
                                     </a>
                                   </h3>
@@ -295,8 +295,8 @@ export function Token() {
                               <li>
                                 <a href="#">
                                   <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  1% 
-                                  <br />Buyback
+                                  2% 
+                                  <br />Cometa
                                   <br />Reserve
                                   <br />
                                     <a style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}} href="https://bscscan.com/address/0x2C736ebbb3Ff7FCD979c7D949A8c873501532Be5">
