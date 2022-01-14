@@ -8,6 +8,19 @@ export function PODs() {
             <div className="title">
                 <div className='cool-text'>METAVERSE</div>
             </div>
+            <div className='title' style={{marginTop:'-40px'}}>
+                    <div className='col'>
+                        <h2 style={{fontSize: '10px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat'}}>
+                            DEMO:
+                        </h2>
+                        <div className='btn'>
+                          <a style={{textDecoration:'none'}} href="https://cometaclub.github.io/X2099_/">VR TOURS</a>
+                        </div>
+                        <h2 style={{fontSize: '7px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat'}}>
+                            *limited access
+                        </h2>
+                    </div>
+                  </div>
             
             <div className="row">
                 <div className='col'>
@@ -28,19 +41,7 @@ export function PODs() {
                         Community collaborative development. Control the narrative, vote for new worlds, and decide on feature proposals. Connect with our development team to get involved.
 
                     </h3>
-                    <div className='title' style={{marginTop:'-40px'}}>
-                    <div className='col'>
-                        <h2 style={{fontSize: '10px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat'}}>
-                            REGISTER FOR A DEMO:
-                        </h2>
-                        <div className='btn'>
-                            VR TOURS
-                        </div>
-                        <h2 style={{fontSize: '7px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat'}}>
-                            *restricted access
-                        </h2>
-                    </div>
-                  </div>
+                    
                 </div>
                 <div className='col' style={{marginTop:'50px', marginLeft:'0px', display:'block'}}>
                     <div className="game-card">
