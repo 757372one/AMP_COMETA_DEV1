@@ -17,7 +17,6 @@ export function Header() {
           <p className="bottom-space-xsm" />
           <div className='row'>
             <ul>
-                <li><a href="http://dash.cometaclub.com/">Game</a></li>
                 <li><a href="https://www.twitter.com/cometaclub">Twitter</a></li>
                 <li><a href="https://opensea.io/collection/cosmosapiens">Opensea</a></li>
                 <li><a href="https://discord.gg/GRQrmvZY8y">Discord</a></li>

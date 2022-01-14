@@ -13,10 +13,10 @@ export function PODs() {
                 <div className='col'>
                 <p className='bottom-space-sm' />
                     <h3 className="neon" style={{fontSize: '25px', fontFamily: 'neon', textAlign:'start'}}>
-                        PLAY TO EARN
+                        multiplayer worlds
                     </h3>
                     <h3 style={{fontSize: '15px', textAlign: 'justify'}}>
-                    “Holy *beep*! Did I just win 0.5 BNB?” <i>That's what she yelled while she tested our one of the best play-to-earn crypto games.</i> Cometa Club Game is a play-to-earn multiplayer gaming world brining players together to earn, 
+                    “Holy *beep*! Did I just win 0.5 TEST BNB?” <i>That's what she yelled while she tested our one of the best play-to-earn crypto games.</i> Cometa Club Game is a play-to-earn multiplayer gaming world brining players together to earn, 
                         mint and exchange on the blockchain based economies via the metaverse. We are the settlers of new worlds. 
                         Explore conquer and colonize planets across the galaxies, claim new worlds in the galaxy and mint them 
                         as your own NFT estates on the blockchain. 
@@ -25,7 +25,7 @@ export function PODs() {
                         wisely to gain an advantage over your opponents. Start or join new alliances along your travel path 
                         and battle other colonies for resourceful exoplanet if you like a little risk.
                         <br /><br />
-                        Vote in the DAO. Community collaborative development. Control the narrative, vote for new worlds, and decide on feature proposals. Connect with our development team to get involved.
+                        Community collaborative development. Control the narrative, vote for new worlds, and decide on feature proposals. Connect with our development team to get involved.
 
                     </h3>
                     <div className='title' style={{marginTop:'-40px'}}>
@@ -65,7 +65,7 @@ export function PODs() {
             </div>
             <div className="row" style={{marginTop:'0px'}}>
                 <div className='col'>
-                <h3 style={{fontSize: '18px', textAlign: 'center', marginBottom: '-50px'}}>TRY OUT OUR DEMO </h3>
+                <h3 style={{fontSize: '18px', textAlign: 'center', marginBottom: '-50px'}}>TRY OUT OUR DEMO ARCADE GAMES</h3>
                     <h3 className="neon" style={{fontSize: '35px', fontFamily: 'neon', textAlign:'center'}}>
                         COMETA DASH
                     </h3>
