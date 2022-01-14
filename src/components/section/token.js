@@ -271,8 +271,10 @@ export function Token() {
                             </ul>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="https://dxsale.app/app/v3/dxlockview?id=0&add=0x458D6186eA832bd972b929a80c26699CE9A20e62&type=lplock&chain=BSC">
                             <h3 style={{fontSize: '7px',fontWeight: '100',textAlign: 'center', marginBottom:'-10px'}}>🔒</h3>
+
+                            
                               <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
                               4% 
                               <br />Pool
