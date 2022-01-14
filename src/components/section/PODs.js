@@ -14,7 +14,7 @@ export function PODs() {
                             DEMO:
                         </h2>
                         <div className='btn'>
-                          <a style={{textDecoration:'none'}} href="https://cometaclub.github.io/X2099_/">VR TOURS</a>
+                          <a style={{textDecoration:'none'}} href="https://cometaclub.github.io/X2099_/">METAVERSE SPACE TOURS</a>
                         </div>
                         <h2 style={{fontSize: '7px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat'}}>
                             *limited access
