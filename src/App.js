@@ -56,8 +56,9 @@ function App() {
       <div className='main'>
           <Header />
           <Landing />
-          <Token />
           <Cosmosapiens />
+          <div className='bottom-space' />
+          <Token />
           <PODs />
           <Features />
           <Roadmap />
