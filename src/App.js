@@ -58,10 +58,8 @@ function App() {
           <Landing />
           <Cosmosapiens />
           <div className='bottom-space' />
-          <Token />
           <PODs />
           <Features />
-          <Roadmap />
           <Footer />
       </div>
       <Footer />
