@@ -54,13 +54,6 @@ function App() {
   return (
     <div className='screen'>
       <div className='main'>
-          <Header />
-          <Landing />
-          <Cosmosapiens />
-          <div className='bottom-space' />
-          <PODs />
-          <Features />
-          <Footer />
       </div>
       <Footer />
       <div className='canvas darkBg'>
